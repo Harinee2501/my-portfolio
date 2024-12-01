@@ -5,7 +5,6 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import Achievements from "./components/achievements";
 import Skills from "./components/skills";
-import Resume from "./components/resume";
 import "./App.css";
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </Router>

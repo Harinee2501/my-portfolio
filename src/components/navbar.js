@@ -11,7 +11,6 @@ const Navbar = () => {
         <Link to="/projects">Projects</Link>
         <Link to="/achievements">Achievements</Link>
         <Link to="/skills">Skills</Link>
-        <Link to="/resume">Resume</Link>
       </div>
 
       {/* Right section with icons */}
