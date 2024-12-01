@@ -14,6 +14,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
+          {/* Default route set to the About component */}
+          <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/achievements" element={<Achievements />} />
@@ -26,6 +28,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

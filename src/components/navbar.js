@@ -16,13 +16,13 @@ const Navbar = () => {
 
       {/* Right section with icons */}
       <div className="navbar-right">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Harinee2501" target="_blank" rel="noopener noreferrer">
           <img src="/images/github.png" alt="GitHub" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/harinee-manikandan/" target="_blank" rel="noopener noreferrer">
           <img src="/images/linkedin.png" alt="LinkedIn" />
         </a>
-        <a href="mailto:your-email@example.com">
+        <a href="harineemanikandan@gmail.com">
           <img src="/images/gmail.jpg" alt="Gmail" />
         </a>
       </div>
