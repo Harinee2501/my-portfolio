@@ -1,56 +1,38 @@
-/* General styling for the navbar */
+/* Navbar styles */
 .navbar {
-    display: flex;
-    justify-content: space-between; /* Ensure the navbar sections are spread out */
-    align-items: center; /* Center items vertically */
-    padding: 10px 30px; /* Add padding for a better look */
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width */
-    z-index: 1000;
-  }
-  
-  /* Left section: Navigation links */
-  .navbar-left {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .navbar-left a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 18px;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-left a:hover {
-    color: #00bcd4; /* Highlight color on hover */
-  }
-  
-  /* Right section: Icons (GitHub, LinkedIn, Gmail) */
-  .navbar-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  .navbar-right a {
-    margin-left: 40px; /* Space between icons */
-  }
-  
-  .navbar-right img {
-    width: 24px;
-    height: 24px;
-    transition: transform 0.3s ease;
-  }
-  
-  .navbar-right img:hover {
-    transform: scale(1.2); /* Zoom effect on hover */
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #1e1e1e; /* Even darker grey for the navbar */
+}
+
+.navbar-left a,
+.navbar-right a {
+  margin: 0 15px;
+  font-size: 18px;
+  color: lavender; /* Lavender text for navbar links */
+}
+
+.navbar-left a:hover {
+  color: #d8bfd8; /* Softer lavender highlight for navbar links on hover */
+}
+
+.navbar-right img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-right img:hover {
+  transform: scale(1.2); /* Zoom effect on hover */
+}
+
   
   
   

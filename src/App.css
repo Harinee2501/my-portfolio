@@ -1,32 +1,38 @@
+/* Reset and general styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #2c2c2c; /* Dark grey background for the entire page */
+  color: lavender; /* Lavender text throughout */
 }
 
+/* App container */
 .App {
-  margin-top: 60px; /* Prevent content from hiding behind navbar */
+  margin-top: 60px; /* Prevent content from hiding behind the navbar */
 }
 
+/* Div styling */
 div {
   padding: 20px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #444; /* Subtle border for separation */
 }
 
 /* General styles for sections */
 section {
-  min-height: 100vh; /* Ensure the content spans full height of the viewport */
+  min-height: 100vh; /* Ensure content spans the full height of the viewport */
   padding: 50px;
-  background-color: #f9f9f9; /* Optional for better section visibility */
+  background-color: #2c2c2c; /* Dark grey background for sections */
+  color: lavender; /* Lavender text for sections */
 }
 
 /* Navigation link styles */
 a {
   text-decoration: none;
-  color: inherit; /* Match the font color of the surrounding text */
+  color: lavender; /* Lavender text for links */
 }
 
 a:hover {
-  color: #00bcd4; /* Highlight color on hover */
+  color: #d8bfd8; /* Softer lavender highlight on hover */
 }
 
 /* Navbar styles */
@@ -40,18 +46,18 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-  background-color: #333;
+  background-color: #1e1e1e; /* Even darker grey for the navbar */
 }
 
 .navbar-left a,
 .navbar-right a {
   margin: 0 15px;
   font-size: 18px;
-  color: #fff;
+  color: lavender; /* Lavender text for navbar links */
 }
 
 .navbar-left a:hover {
-  color: #00bcd4;
+  color: #d8bfd8; /* Softer lavender highlight for navbar links on hover */
 }
 
 .navbar-right img {
